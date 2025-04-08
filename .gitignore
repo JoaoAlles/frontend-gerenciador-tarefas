@@ -2,3 +2,7 @@ echo "node_modules/" >> .gitignore
 echo "dist/" >> .gitignore
 echo ".env" >> .gitignore
 glpat-ixcsoft-MKy38SyjeSEUVjsDdcJR
+node_modules/
+dist/
+.env
+.DS_Store

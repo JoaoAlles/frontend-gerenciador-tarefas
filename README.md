@@ -1,49 +1,51 @@
-## Frontend - Gerenciador de Tarefas
+## 🚀 Frontend - Gerenciador de Tarefas
 
-Este é o frontend do Gerenciador de Tarefas, um projeto de portfólio desenvolvido com JavaScript puro para interagir com a API REST do backend.
+Este é o frontend do **Gerenciador de Tarefas**, um projeto de portfólio desenvolvido com **React** e Vite, que se comunica com uma API REST para gerenciamento de objetivos e metas diárias.
 
-## Funcionalidades
+---
 
-Cadastro e login de usuários
+## ✅ Funcionalidades
 
-Criar, editar e excluir objetivos
+- Cadastro e login de usuários com feedback visual (toast)
+- Criar, editar e excluir **objetivos**
+- Criar **metas diárias** vinculadas aos objetivos
+- Marcar tarefas como concluídas
+- Visualizar **progresso** de metas e objetivos
+- **Modo escuro** ativável pelo usuário
 
-Criar metas diárias dentro dos objetivos
+---
 
-Marcar tarefas como concluídas
+## 🛠️ Tecnologias Utilizadas
 
-Exibir progresso das metas e objetivos
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [React Router DOM](https://reactrouter.com/)
+- [React Toastify](https://fkhadra.github.io/react-toastify/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
 
-## Tecnologias Utilizadas
+---
 
-HTML5
+## ▶️ Como Rodar o Projeto
 
-CSS3
+### 1. Clone o repositório:
 
-JavaScript (Vanilla JS)
-
-Fetch API (para comunicação com o backend)
-
-## Como Rodar o Projeto
-
-### Clone este repositório:
-
+```bash
 git clone https://github.com/JoaoAlles/frontend-gerenciador-tarefas.git
+```
 
-### Navegue até a pasta do projeto:
+### 2. Acesse a pasta do projeto:
 
 cd frontend-gerenciador-tarefas
 
-Abra o index.html diretamente no navegador ou utilize uma extensão como Live Server para testar localmente.
+### 3. Instale as dependências:
 
-## Próximos Passos
+```bash
+npm install
+```
 
-Conectar o frontend ao backend via API
+### 4. Rode o projeto em ambiente de desenvolvimento:
 
-Criar uma interface responsiva e intuitiva
-
-Implementar autenticação com token
-
-## Autor
-
-Desenvolvido por João Alles
+```bash
+npm run dev
+```
