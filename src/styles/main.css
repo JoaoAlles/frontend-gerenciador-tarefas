@@ -1,27 +1,8 @@
-body {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: #f8f9fa;
+html, body {
+    height: 100%;
     margin: 0;
-    padding-top: 60px;
+    padding: 0;
 }
-
-header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    text-align: center;
-    padding: 15px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-}
-
-#login-section, #register-section {
-    width: 100%;
-    max-width: 400px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+body {
+    transition: background-color 0.3s, color 0.3s;
 }

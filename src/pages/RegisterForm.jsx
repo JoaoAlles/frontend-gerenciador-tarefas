@@ -25,12 +25,12 @@ export default function RegisterForm() {
         e.preventDefault();
 
         if (!formData.name || !formData.email || !formData.password) {
-            alert('Preencha todos os campos!');
+            toast.error('Preencha todos os campos!');
             return;
         }
 
         if (formData.password !== formData.confirmPassword) {
-            alert('As senhas não coincidem!');
+            toast.error('As senhas não coincidem!');
             return;
         }
 
@@ -43,10 +43,10 @@ export default function RegisterForm() {
                 password: formData.password
             });
 
-            alert('Cadastro realizado com sucesso!');
+            toast.success('Cadastro realizado com sucesso!');
             navigate('/');
         } catch (error) {
-            alert(error.response?.data?.message || 'Falha na comunicação com o servidor');
+            toast.error(error.response?.data?.message || 'Falha na comunicação com o servidor');
             console.error('Erro detalhado:', error);
         } finally {
             setIsLoading(false);
